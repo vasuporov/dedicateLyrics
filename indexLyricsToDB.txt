@@ -1,0 +1,10 @@
+
+
+<?php
+
+ini_set('max_execution_time', 12000);
+
+    require('dbconnect.php');
+    clearIndexTable();
+    indexLyricsToDB();
+?>
